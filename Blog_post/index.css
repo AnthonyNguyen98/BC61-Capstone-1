@@ -294,3 +294,16 @@ p {
         line-height: 30px;
     }
 }
+/* Footer */
+@media (max-width: 992px){
+    .footer .footer_i{
+        text-align: center;
+        margin-left: 30px;
+    }
+}
+/* copyright */
+@media (max-width: 992px){
+    .copyright .row{
+        text-align: center;
+    }
+}

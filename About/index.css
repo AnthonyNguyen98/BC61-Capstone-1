@@ -280,3 +280,139 @@ p{
     cursor: pointer;
     transition: 0.7s;
 }
+
+/* *****************************RESPONSIVE 576 768 992 1200************************* */
+
+/* HEADER */
+
+/* banner */
+
+
+@media screen and (max-width: 1200px){
+    /* our */
+    .our .our_meet h3{
+        font-size: 24px;
+    }
+    .our .our_meet p{
+        font-size:18px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 991.98px){
+    /* banner */
+    .banner .banner_list{
+        position: absolute;
+        top: 40%;
+    }
+    
+    /*  about*/
+    .redd{
+        font-size: 20px;
+    }
+    .two{
+        font-size: 38px;
+    }
+    .about .about_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: center;
+    }
+    .about .about_list h4{
+        font-size: 20px;
+    }
+    /* our */
+    
+    .our .our_meet h3{
+        font-size: 18px;
+    }
+    .our .our_meet p{
+        font-size:18px;
+    }
+    
+    .our .our_item i {
+        font-size: 16px;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color: rgba(157, 157, 157, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 737px){
+
+    .banner .banner_list{
+        position: absolute;
+        top: 30%;
+    }
+
+    .about .about_what{
+        
+        font-size: 32px;
+        
+        
+    }
+
+    .about .about_list{
+        display: inline-block;
+        
+    }
+    /* skill */
+
+
+    
+    
+
+
+    
+}
+
+@media screen and (max-width: 599px){
+    .banner .banner_list{
+        position: absolute;
+        top: 30%;
+    }
+
+    .redd{
+        font-size: 16px;
+    }
+    .two{
+        font-size: 30px;
+    }
+    .about .about_content p{
+        font-size: 16px;
+    }
+    .about .about_list p{
+        font-size: 16px;
+    }
+    .about .about_list p{
+        font-size: 16px;
+    }
+    .about .about_list h2{
+        font-size: 30px;
+    }
+    /* skill */
+    .skill .skills_list p{
+        font-size: 16px;
+    }
+    /* our */
+    .our .our_meet h3{
+        font-size: 18px;
+    }
+    .our .our_meet p{
+        font-size:16px;
+    }
+    
+}
